@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background: url(imagenes/imagen_fondo.png) no-repeat center;
+    background-size: cover;
+    font-family: "Carter One", Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    background: black;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin: 0;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255,.7);
+    display: flex;
+    gap: 30px;
+}
+
+#imagen{
+    width: 500px;
+
+}
+
+#palabra_a_adivinar{
+    height: 3em;
+}
+
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;/* sin esto, por ser un elemento de línea, no tomaría el width, osea no hay ancho */
+}
+
+#letras{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#letras button{
+    font-family: "Carter One", Arial, Helvetica, sans-serif;
+    width: 95px;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#jugar{
+    margin-top: 20px;
+    appearance: none;
+    font-family: "Carter One", Arial, Helvetica, sans-serif;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    background: #d95d39;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
